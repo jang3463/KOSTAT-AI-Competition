@@ -1,1 +1,1 @@
-# KOSTAT-AI-Competition
+# 통계데이터 인공지능 활용대회
