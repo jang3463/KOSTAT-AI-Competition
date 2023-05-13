@@ -2,7 +2,7 @@
 ## 1. 개요
 https://data.kostat.go.kr/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000575&curMenuNo=OPT_09_03_00_0
   - 주제 : 자연어 기반 통계 데이터를 활용한 산업분류 자동화 인공지능 모델 개발
-  - Task : Text Classification
+  - Task : Text Classification, Multi Label Classification
   - 기간 : 2022.3.14 ~ 2022.04.13
   - 결과 : 6등 / 395 => 수상
 <!--  Other options to write Readme
@@ -20,16 +20,14 @@ https://data.kostat.go.kr/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000
 
 ## 3. 수행방법
 <!-- Write Overview about this project -->
-- 본 과제는 ChatGPT가 제공하는 코드로만 AI 코드를 작성하여 생성된 모델의 추론 결과를 제출
-- ChatGPT가 코드를 잘짜도록 질문을 잘하는 것이 중요. (간결하고, 핵심적인 내용을 잘 전달하는 것이 중요)
-- pytorch를 사용하고, Pretrained-Roberta-Large 모델을 사용하도록 지시
-- 데이터 불균형 문제가 있으므로 Focal-Loss를 사용하도록 지시
-- 최종적으로 F1-score 0.63423 달성
+- 본 과제는 전국사업체조사 텍스트 데이터를 가지고 한국표준산업분류(KSIC) 대분류, 중분류, 소분류로 나누는 AI 모델 개발
+- Kobert, Roberta-Large 모델을 사용했고, 성능을 최대한 올리기 위해서 앙상블 기법 사용
+- 데이터 불균형 문제가 있어서 불균형 해소를 위해 back translation 기법 사용
+- 최종적으로 Accuraccy 91.25, F1-Score	81.31 달성
 
 ## 4. 한계점
 <!-- Write Overview about this project -->
-- ChatGPT로만 코드를 짜야하기에 하이퍼파라미터 조정이 어렸웠음
-- back translation과 같은 augmentation 기법을 쓰도록 지시했지만, 어려운 지시는 코드로 잘 짜지 못함
+- 데이터 불균형 해소를 위해서 다른 다양한 기법을 좀 더 탐색해볼 필요 있음
 
 ## Team member
-장종환 (개인 참가)
+장종환, 손효은
