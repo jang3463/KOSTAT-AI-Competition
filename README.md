@@ -1,7 +1,6 @@
 # 통계데이터 인공지능 활용대회
 ## 1. 개요
-https://dacon.io/competitions/official/236006/overview/description  
-https://shareg.pt/6A45AWU
+https://data.kostat.go.kr/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000575&curMenuNo=OPT_09_03_00_0
   - 주제 : 자연어 기반 인공지능 산업분류 자동화
   - Task : Text Classification
   - 기간 : 2022.3.14 ~ 2022.04.13
