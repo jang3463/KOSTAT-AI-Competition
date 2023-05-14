@@ -23,7 +23,9 @@ https://data.kostat.go.kr/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000
 - 본 과제는 전국사업체조사 텍스트 데이터를 가지고 한국표준산업분류(KSIC) 대분류, 중분류, 소분류로 나누는 AI 모델 개발
 - Kobert, Roberta-Large 모델을 사용했고, 성능을 최대한 올리기 위해서 앙상블 기법 사용
 - 데이터 불균형 문제가 있어서 불균형 해소를 위해 back translation 기법 사용
-- 최종적으로 Accuraccy 91.25, F1-Score	81.31 달성
+- 최종적으로 Accuraccy 91.25, F1-Score	81.31 달성  
+
+**자세한 내용은 위의 코드 설명자료.pdf를 참조해 주시기 바랍니다.**
 
 ## 4. 한계점
 <!-- Write Overview about this project -->
