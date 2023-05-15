@@ -11,7 +11,9 @@ https://data.kostat.go.kr/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000
 -->
 ## 2. 데이터셋 설명
 <!--Wirte one paragraph of project description -->  
-<img width="650" alt="image" src="https://github.com/jang3463/KOSTAT-AI-Competition/assets/70848146/9b302be6-ee3f-46a7-b902-de6827269b95">
+<img width="650" alt="image" src="https://github.com/jang3463/KOSTAT-AI-Competition/assets/70848146/9b302be6-ee3f-46a7-b902-de6827269b95">  
+
+
 - train.csv : text_obj, text_mthd, text_deal, 대분류, 중분류, 소분류 (100만개)
 
 - test.csv : text_obj, text_mthd, text_deal (10만개)
