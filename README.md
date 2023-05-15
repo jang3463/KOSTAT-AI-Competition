@@ -15,7 +15,6 @@ https://data.kostat.go.kr/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000
 
 
 - train.csv : text_obj, text_mthd, text_deal, 대분류, 중분류, 소분류 (100만개)
-
 - test.csv : text_obj, text_mthd, text_deal (10만개)
 
 
